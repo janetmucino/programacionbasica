@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title> Cálcula tu índice de Masa Corporarl </title>
+    <style>
+    body
+    {
+      background-color: #ab6767;
+      color: black;
+    }
+    </style>
+ </head>
+ <body>
+    <h1>Es importante conocer tu índice de masa corporal IMC</h1>
+    <p>Conocer su IMC es una información que permitirá prevenir enfermedades importantes</p>
+    <script>
+    var peso = prompt("Cúal es tu peso?");
+    var altura = prompt("cúal es tu altura?");
+    var Indice_masa_corporal;
+    Indice_masa_corporal = peso / (altura * altura);
+    Indice_masa_corporal = (Indice_masa_corporal.toFixed(2));
+    document.write("Tu IMC es <strong>" + Indice_masa_corporal +"</strong>");
+    </script>
+ </body>
+</html>
